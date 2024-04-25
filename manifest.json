@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "ホワイトリスト機能を追加します\n製作:なるる\nYouTube:なるる-Naruru",
+        "name": "ホワイトリスト ver1.4.0",
+        "uuid": "2e5679e2-0494-4422-aad3-55cc470f0f01",
+        "version": [1, 4, 0],
+        "min_engine_version": [1, 20, 80]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "a034e72c-a8c8-443e-abc3-08aec0f28d95",
+            "version": [1, 4, 0],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
